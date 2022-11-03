@@ -41,7 +41,7 @@ export default function Counter() {
         </button>
       </div>
       <form>
-        <label className="font-bold text-3xl text-white">Set Value: </label>
+        <label className="font-bold md:text-3xl text-white">Set Value: </label>
         <input
           placeholder="Enter value"
           type="number"
