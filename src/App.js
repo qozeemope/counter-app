@@ -1,14 +1,17 @@
 import React from "react";
-import Home from "./components/Home";
-import Counter from "./components/Counter";
-import Layout from "./components/Layout";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import AppRoutes from "./routes";
 
 function App() {
   return (
     <div>
-      {/* <Home /> */}
-      <Counter />
-      {/* <Layout /> */}
+      <Router>
+        <Routes>
+          {AppRoutes.map((route) => (
+            <Route path={route.path} element={route.element} key={route.id} />
+          ))}
+        </Routes>
+      </Router>
     </div>
   );
 }
