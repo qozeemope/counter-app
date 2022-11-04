@@ -2,6 +2,8 @@ import Home from "./components/Home";
 import Counter from "./components/Counter";
 import Layout from "./components/Layout";
 import About from "./components/About";
+import ErrorPage from "./components/ErrorPage";
+import NotFound from "./components/NotFound";
 
 const AppRoutes = [
   {
@@ -32,6 +34,17 @@ const AppRoutes = [
         <About />
       </Layout>
     ),
+  },
+
+  {
+    id: 4,
+    path: "/error",
+    element: <ErrorPage />,
+  },
+  {
+    id: 5,
+    path: "*",
+    element: <NotFound />,
   },
 ];
 

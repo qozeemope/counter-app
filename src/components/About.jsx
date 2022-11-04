@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 function About() {
   return (
@@ -8,6 +9,18 @@ function About() {
       </h1>
       <p className="md:text-2xl text-center">
         This is version 1.0.0 of this app. Watch out for subsequent relases.
+      </p>
+      <p className="mt-[20px] text-center md:text-2xl">
+        Click{" "}
+        <NavLink
+          to="/error"
+          className={
+            "text-blue-500 hover:text-blue-900 active:text-blue-700 focus:text-blue-400"
+          }
+        >
+          here
+        </NavLink>{" "}
+        to test the error boundary
       </p>
     </div>
   );
