@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# 2ND SEMESTER EXAM FOR ALTSCHOOL AFRICA SCHOOL OF ENGINEERING (FRONTEND 2022/23 TRACK) 
 
-# live app: https://counter-app-virid.vercel.app/
+# LIVE APP: https://counter-app-virid.vercel.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
