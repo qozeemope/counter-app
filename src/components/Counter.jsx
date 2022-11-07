@@ -45,7 +45,7 @@ export default function Counter() {
         <input
           placeholder="Enter value"
           type="number"
-          maxlength={2}
+          maxLength={2}
           onChange={(e) =>
             dispatch({ type: "changeValue", payload: e.target.value })
           }
